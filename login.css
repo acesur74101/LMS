@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Raleway, sans-serif;
+  }
+
+  body {
+    background: url(./img/Ekran\ Resmi\ 2023-06-24\ 20.39.07.png) no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+
+  
+  .login {
+    width: 320px;
+    padding: 30px;
+    padding-top: 0px;
+  }
+  
+  .login__field {
+    padding: 20px 0px;
+    position: relative;
+  }
+  
+  .login__icon {
+    position: absolute;
+    top: 30px;
+    color: #1a2b48;
+  }
+  
+  .login__input {
+    border: none;
+    border-bottom: 2px solid #d1d1d4;
+    background: none;
+    padding: 10px;
+    padding-left: 24px;
+    font-weight: 700;
+    width: 75%;
+    transition: 0.2s;
+  }
+  
+  .login__input:active,
+  .login__input:focus,
+  .login__input:hover {
+    outline: none;
+    border-bottom-color: #1a2b48;
+  }
+  
+  .login__submit {
+    background: #fff;
+    font-size: 14px;
+    margin-top: 30px;
+    padding: 16px 20px;
+    border-radius: 26px;
+    border: 1px solid #d4d3e8;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: #1a2b48;
+    box-shadow: 0px 2px 2px #1a2b48;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  .login__submit:active,
+  .login__submit:focus,
+  .login__submit:hover {
+    border-color: #1a2b48;
+    outline: none;
+  }
+  
+  .social-login {
+    height: 23px;
+    width: 315px;
+    padding-top: 80px;
+    text-align: center;
+    bottom: 0px;
+    right: 0px;
+    color: #fff;
+  }
+  
+  .social-icons {
+    display: flex;
+    align-items: center;
+    justify-content:flex-end ;
+  }
+  
+  .social-login__icon {
+    padding: 20px 10px;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0px 0px 8px #1a2b48;
+  }
+  
+  .social-login__icon:hover {
+    transform: scale(1.5);
+  }
+  
