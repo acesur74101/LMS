@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kayıt ol</title>
+    <!-- bootstrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <!-- fontawsome css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- header yazıları -->
+      <div class="row text-center">
+        <h3 class="">Kayıt ol.</h3>
+        <p>Kaydolun ve öğrenmeye başlayın!</p>
+      </div>
+      <div class="row mt-5">
+        <!-- sol resim -->
+        <div class="col p-3 m-3 shadow-sm">
+          <!-- orjinali https://unsplash.com/photos/BfrQnKBulYQ -->
+          <img src="registerleft.jpg" alt=" sol kolon" class="rounded w-100" />
+        </div>
+        <!-- sağ forum -->
+        <div class="col bg-light rounded shadow-sm p-3 m-3">
+          <form action="" method="post">
+            <!-- istenen bilgiler -->
+            <!-- isim -->
+            <label class="form-label">İsim :</label>
+            <div class="input-group mb-3">
+              <span class="input-group-text"
+                ><i class="fa-regular fa-user" style="color: #ff0000"></i
+              ></span>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="İsim"
+                aria-label="İsim"
+                required
+              />
+            </div>
+            <!-- soyisim -->
+            <label class="form-label">Soyisim :</label>
+            <div class="input-group mb-3">
+              <span class="input-group-text">
+                <i class="fa-regular fa-user" style="color: #ff0000"></i>
+              </span>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Soyisim"
+                aria-label="Soyisim"
+                required
+              />
+            </div>
+            <!-- e-posta -->
+            <label class="form-label">E-posta Adresiniz :</label>
+            <div class="input-group mb-3">
+              <span class="input-group-text">
+                <i class="fa-regular fa-envelope" style="color: #ff0000"></i>
+              </span>
+              <input
+                type="email"
+                class="form-control"
+                placeholder="E-posta"
+                aria-label="e-posta"
+                required
+              />
+            </div>
+            <!-- şifre bir -->
+            <label class="form-label">Şifre :</label>
+            <div class="input-group mb-3">
+              <span class="input-group-text">
+                <i class="fa-solid fa-key" style="color: #ff0000"></i>
+              </span>
+              <input
+                type="password"
+                class="form-control"
+                placeholder="Sifre"
+                aria-label="Sifre"
+                required
+              />
+            </div>
+            <!-- şifre tekrar -->
+            <label class="form-label">Şifre tekrarı:</label>
+            <div class="input-group mb-3">
+              <span class="input-group-text">
+                <i class="fa-solid fa-key" style="color: #ff0000"></i>
+              </span>
+              <input
+                type="password"
+                class="form-control"
+                placeholder="Sifrenizi tekrar giriniz"
+                aria-label="Sifre tekrar"
+                required
+              />
+            </div>
+
+            <!-- submit butonu -->
+            <div class="d-grid">
+              <button class="btn btn-danger" type="submit">Kayıt Ol!</button>
+            </div>
+          </form>
+
+          <!-- hesap olanlar için girişe yönlerdirme -->
+          <div class="form-group mt-4 mb-0 text-center text-black">
+            Zaten hesabınız var mı?
+            <a href="#" class="fw-bold text-decoration-none text-black">Giriş</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- bootstrap js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <!-- font awsome js -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"
+      integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </body>
+</html>
