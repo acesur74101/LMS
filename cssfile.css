@@ -1,1 +1,17 @@
-
+/*! eğitmenler css start */
+.rounded-image {
+   clip-path: circle(40%);
+}
+.list-group-item{
+   flex: 1 0 auto;
+   margin: 0.5rem;
+   color: #FFF;
+   font-size: 11.244px;
+   line-height: 15.741px;
+}
+.list-group {
+   display: flex !important;
+   flex-wrap: nowrap !important;
+   overflow-x: auto !important;
+}
+/*! eğitmenler css end */
