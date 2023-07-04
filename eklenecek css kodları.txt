@@ -1,0 +1,56 @@
+/* Free Courses Hero Start */
+.freecourse {
+  height: 300px;
+  background-image: url("img/free-courses.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 95%;
+ 
+}
+
+/* Free Courses Hero End */
+
+/* Course-Detail Start */
+.card-img {
+  
+  height: 600px;
+  background-image: url("img/ders.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 95%;
+ 
+}
+/* Course-Detail End */
+
+
+
+/* Hero-image Css Start */
+.hero1 {
+  height: 150px;
+  background-image: url("img/hero1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero2 {
+  height: 150px;
+  background-image: url("img/hero2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Here-image Css End */
+
+.floating-user{
+  border: 1px solid white;
+  border-radius: 35px ;
+}
+.percent{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
